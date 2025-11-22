@@ -1,0 +1,80 @@
+
+    body{
+      font-family: arial;
+      background-color: rgb(20, 20, 36);
+    }
+    .body-div{
+      display: flex;
+      column-gap: 20px;
+      color: white;
+    }
+    .paraTask{
+      margin-left: 20px;
+    }
+    .paraDate{
+      background-color: rgba(0, 94, 255, 0.685);
+      width: 100px;
+      padding-left: 18px;
+      border-radius: 20px;
+      cursor: pointer;      
+    }
+    .text-box-js{
+      padding: 8px 12px;
+      margin-left: 20px;
+      width: 200px;
+      border: none;  
+      font-style: italic;
+      border-radius: 20px;
+      
+    }
+    .js-date-box{
+      padding: 8px 10px;
+      cursor: pointer;
+      border: none;
+      border-radius: 15px;
+      font-style: italic;
+    }
+    .Add-button{
+      padding: 8px 30px;
+      background-color: rgb(1, 158, 255);
+      font-weight: bold;
+      border: none;
+      color: white;
+      cursor: pointer;
+      border: none;
+      border-radius: 20px;
+      transition: background-color 0.15s ;
+    }
+    .Add-button:hover{
+      background-color: rgb(0, 183, 255);
+    }
+    .ented-task-div{
+      margin-top: 10px;
+      display: grid;
+      grid-template-columns: 200px 150px 100px;
+      align-items: center;
+      row-gap: 12px;
+      column-gap: 25px;
+      color: white;
+    }
+    .Add-button:active{
+      opacity: 0.9;
+    }
+    .Delete-button{
+      background-color: rgb(255, 13, 0);
+      border: none;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 2px;
+      
+      align-items: stretch;
+      cursor: pointer;
+      transition: background-color 0.15s, opacitiy 0.15s ;
+      }
+      .Delete-button:hover{
+        background-color: rgb(221, 41, 0);
+      }
+      .Delete-button:active{
+        opacity: 0.9;
+      }
+ 
